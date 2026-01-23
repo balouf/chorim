@@ -1,0 +1,51 @@
+# This workflow will generate the docs on each push, and publish them on GitHub Pages if the branch is the main one.
+name: docs
+
+on: [push]
+
+permissions:
+  contents: write
+
+jobs:
+  docs:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out
+        uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+
+      - name: Set up python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Set up Lilypond
+        uses: codello/setup-lilypond@main
+        with:
+          lilypond-version: 2.24
+
+      - name: Ffmpeg
+        uses: FedericoCarboni/setup-ffmpeg@v3
+        id: setup-ffmpeg
+        with:
+          ffmpeg-version: release
+
+      - name: Install dependencies
+        run : |
+          sudo apt update
+          sudo apt install timidity
+          sudo apt install python3-pip
+          pip3 install ffmpeg-normalize
+
+      - name: Compile files
+        run: |
+          python deploy.py -s "2025-2026"
+
+      - name: Deploy Sphinx documentation on Github Pages
+        uses: JamesIves/github-pages-deploy-action@v4
+        if: github.ref == 'refs/heads/main'
+        with:
+          BRANCH: gh-pages
+          FOLDER: build/
+          SINGLE-COMMIT: true

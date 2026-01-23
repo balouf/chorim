@@ -9,14 +9,6 @@ import json
 import shutil
 
 
-parser = argparse.ArgumentParser()
-parser.add_argument("-l", "--lilypond", default="lilypond", help="path to Lilypond executable")
-parser.add_argument("-d", "--dest", default="build", help="destination folder")
-parser.add_argument("-s", "--source", default="lilypond", help="source folder")
-args = parser.parse_args()
-lily = args.lilypond
-dest = args.dest
-source = args.source
 rtitle = re.compile(r'\Wtitle\s*=.*?"(.*)"')
 stitle = re.compile(r'\Wsubtitle\s*=.*?"(.*)"')
 
@@ -149,4 +141,9 @@ def run_everything(lily, source, dest):
 
 
 if __name__ == '__main__':
-    run_everything(lily, source, dest)
+    parser = argparse.ArgumentParser()
+    parser.add_argument("-l", "--lilypond", default="lilypond", help="path to Lilypond executable")
+    parser.add_argument("-d", "--dest", default="build", help="destination folder")
+    parser.add_argument("-s", "--source", default="lilypond", help="source folder")
+    args = parser.parse_args()
+    run_everything(args.lilypond, args.source, args.dest)

@@ -65,7 +65,7 @@ fortu_bass_music = \relative c {
 
   r2 a-_ a-_ g-_ g-_ r
   r a-_ a-_ g-_ g-_ r
-  r a-_ a-_  \bk g-_ f1-- g2-_ f1-- g1.--
+  r a-_ a-_  \bk g-_ f1-- g1-- f2-_ g1.--
 
   r2 a-_ a-_ g-_ g-_ r
   r a-_ a-_ g-_ g-_ r

@@ -1493,7 +1493,7 @@ blan_mus = \relative c' {
   r4 <b d>2-> <a cis>4-> r4 <b d>2-> <a cis>4->
   \time 6/2
   r4 <b d>2-> <a cis>4-> r \tempo "rit." <b d>2->^\< <a cis>->
-  <b d>-> <a e>4->\!^"ten." \fine
+  <b d>-> <a e'>4->\!^"ten." \fine
   
 }
 

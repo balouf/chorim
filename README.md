@@ -1,8 +1,8 @@
 # Chorim : partitions basses
 
 
-[![Documentation Status](https://github.com/balouf/chorim/actions/workflows/docs.yml/badge.svg?branch=main)](https://github.com/balouf/chorim/actions?query=workflow%3Adocs)
-[![License](https://img.shields.io/github/license/balouf/choeur-argentine)](https://github.com/balouf/choeur-argentine/blob/main/LICENSE)
+[![Site](https://github.com/balouf/chorim/actions/workflows/site.yml/badge.svg?branch=main)](https://github.com/balouf/chorim/actions?query=workflow%3Asite)
+[![License](https://img.shields.io/github/license/balouf/chorim)](https://github.com/balouf/chorim/blob/main/LICENSE)
 
 Répertoire Github transcriptions basses du Choeur d'Issy-les-Moulineaux (fichiers sources lilypond).
 

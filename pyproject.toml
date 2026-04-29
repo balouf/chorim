@@ -7,7 +7,7 @@ name = "chorim"
 version = "0.1.0"
 description = "Répertoire Github transcriptions basses du Choeur d'Issy-les-Moulineaux (fichiers sources lilypond)."
 readme = "README.md"
-requires-python = ">=3.10"
+requires-python = ">=3.11"
 authors = [
     {name = "Fabien Mathieu", email = "fabien.mathieu@normalesup.org"}
 ]
@@ -21,9 +21,8 @@ classifiers = [
     "Topic :: Multimedia :: Sound/Audio",
     "Topic :: Multimedia :: Sound/Audio :: MIDI",
     "Intended Audience :: End Users/Desktop",
-    "Programming Language :: Python :: 3.10",
     "Programming Language :: Python :: 3.11",
-    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.14",
 ]
 dependencies = [
     "ffmpeg-normalize>=1.35.0",
@@ -45,7 +44,7 @@ skip_empty = true
 
 [tool.coverage.run]
 branch = true
-source = ["chorim"]
+source = ["chorim", "deploy"]
 
 [tool.coverage.html]
 directory = "cov"

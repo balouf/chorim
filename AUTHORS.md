@@ -2,7 +2,7 @@
 
 ## Development Lead
 
-- Fabien Mathieu <loufab@gmail.com>
+- Fabien Mathieu <fabien.mathieu@normalesup.org>
 
 ## Contributors
 

@@ -746,7 +746,7 @@ swaz_mus = \relative c {
 
 swaz_lyr = \lyricmode {
   Swaz __ hie gat um -- be,
-  daz __ sint al -- le me -- ge -- de,
+  daz __ sint al -- lez me -- ge -- de,
   die wel -- lent an -- man
   al -- le, al -- le, al -- le, al -- le
   di -- sen su -- mer gan!
@@ -1097,7 +1097,7 @@ intab_lyr = \lyricmode {
   bi -- bit a -- nus, bi -- bit ma -- ter,
   bi -- bit i -- ste, bi -- bit il -- le,
   
-  bi -- bunt cen -- tum, bi -- bunt mil --le.
+  bi -- bunt cen -- tum, bi -- bunt mil -- le.
   Pa -- rum sex -- cen -- te __ num -- ma -- te
   du -- rant, cum im -- mo -- de -- ra -- te
   
@@ -1210,9 +1210,9 @@ sip_lyr = \lyricmode {
 Si pu -- er cum pu -- el -- lu -- la mo -- ra -- re -- tur in cel -- lu -- la.
 Si pu -- er cum pu -- el -- lu -- la mo -- ra -- re -- tur in cel -- lu -- la.
 
-A -- mo -- re sus-- cres -- cen -- te,
+A -- mo -- re sus -- cres -- cen -- te,
 pa -- ri -- ter e me -- di -- o. __
-A -- mo -- re sus-- cres -- cen -- te,
+A -- mo -- re sus -- cres -- cen -- te,
 pa -- ri -- ter e me -- di -- o __
 
 a -- vul -- so pro -- cul te -- di -- o,
@@ -1405,14 +1405,14 @@ tempus_mus = \relative c {
   \time 3/4
   d8^\p-> 8 8[ cis->] d d \breathe
   \time 4/4
-  <b fis'>4->^\f 4-> 4-> 8-> \breathe 8-> 
+  <b fis'>8->^\f 8 8-> 8 8-> 8 8-> \breathe 8-> 
   8.-> <cis e>16 d8 \breathe <b fis'>8-> 8.-> <cis e>16 d4
 
   <d a'>8->^\ff 8-> 8-> <e gis>-> <d a'>4-> 4-> \breathe
   \time 3/4
   d8^\p-> 8 8[ cis->] d d \breathe
   \time 4/4
-  <b fis'>4->^\f 4-> 4-> 8-> \breathe 8-> \mark \default
+  <b fis'>8->^\f 8 8-> 8 8-> 8 8-> \breathe 8-> \mark \default
   8.-> <cis e>16 d8 \breathe <b fis'>8-> 8.-> <cis e>16 d4
   \tempo "più lento"
   e4-> fis -> e2-> \breathe
@@ -1447,10 +1447,10 @@ tempus_lyr = \lyricmode {
   
   Ve -- ni, do -- mi -- cel -- la,
   ve -- ni, do -- mi -- cel -- la,
-  cum, cum, cum, cum, cum gau -- di -- o, cum gau -- di -- o,
+  cu -- m, cu -- m, cu -- m, cum, cum gau -- di -- o, cum gau -- di -- o,
   ve -- ni, ve -- ni, pulch -- ra, 
   ve -- ni, ve -- ni, pulch -- ra, 
-  iam, iam, iam, iam, iam pe -- re -- o, iam pe -- re -- o.
+  ia -- m, ia -- m, ia -- m, iam, iam pe -- re -- o, iam pe -- re -- o.
   
   Oh, oh, oh, to -- tus flo -- re -- o,
   iam a -- mo -- re vir -- gi -- na -- li
